@@ -1,30 +1,44 @@
-# Three.js camera tool
+# 3D Camera Matrix Transformation Tool
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+An interactive 3D visualization tool for learning camera transformations, matrix operations, rotations, and translations in real-time using Three.js and React.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/omeldars-projects/v0-three-js-camera-tool)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/79s9ASWDluc)
+![3D Camera Matrix Tool](https://img.shields.io/badge/Three.js-Interactive-blue) ![Next.js](https://img.shields.io/badge/Next.js-15-black) ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue)
 
-## Overview
+## 🎯 Features
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+### Core Functionality
 
-## Deployment
+- **Real-time 3D Camera Control**: Interactive camera positioning and rotation
+- **Matrix Visualization**: Live display of transformation matrices with highlighted changes
+- **Movement Builder**: Combine translation, rotation, and complex movements
+- **Dual View System**: Main camera view + mini overview with camera visualization
+- **Boundary System**: Configurable scene boundaries with automatic reset
 
-Your project is live at:
+### Educational Tools
 
-**[https://vercel.com/omeldars-projects/v0-three-js-camera-tool](https://vercel.com/omeldars-projects/v0-three-js-camera-tool)**
+- **Matrix Math Display**: Visual matrix multiplication process
+- **Movement Presets**: Pre-built movements (forward, backward, yaw, pitch, etc.)
+- **Live Calculations**: Real-time matrix decomposition and composition
+- **Interactive Controls**: Direct matrix editing and position/rotation inputs
 
-## Build your app
+### Advanced Features
 
-Continue building your app on:
+- **Animation System**: Continuous movement based on movement matrices
+- **Conflict Resolution**: Automatic handling of conflicting movements
+- **Custom Scrollbars**: Enhanced UI with custom styling
+- **Responsive Design**: Works on desktop and tablet devices
 
-**[https://v0.dev/chat/projects/79s9ASWDluc](https://v0.dev/chat/projects/79s9ASWDluc)**
+## 🚀 Getting Started
 
-## How It Works
+### Prerequisites
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- Node.js 18+
+- npm, yarn, or pnpm
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/3d-camera-matrix-tool.git
+   cd 3d-camera-matrix-tool
+   ```
