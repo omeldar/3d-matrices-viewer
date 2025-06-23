@@ -39,6 +39,12 @@ An interactive 3D visualization tool for learning camera transformations, matrix
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/3d-camera-matrix-tool.git
-   cd 3d-camera-matrix-tool
+   git clone https://github.com/omeldar/3d-matrices-viewer.git
+   cd 3d-matrices-viewer
+   ```
+
+   or with ssh:
+   ```bash
+   git clone git@github.com:omeldar/3d-matrices-viewer.git
+   cd 3d-matrices-viewer
    ```
